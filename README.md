@@ -12,7 +12,7 @@ Optionally, one can get the statistics of the test:
   - Best classifiers
   
 # todo
-  -Make it possible to configure the classifiers via optional arguments
-  -Increase documentation
-  -Add tests and wider examples
-  -Make the package overall more usable
+  - Make it possible to configure the classifiers via optional arguments
+  - Increase documentation
+  - Add tests and wider examples
+  - Make the package overall more usable
