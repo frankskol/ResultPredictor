@@ -7,9 +7,9 @@ It trains all of them with the given data, and then uses each of them to predict
 the result of the value given. It then groups up the different predictions and 
 the one which the most classifiers gave is chosen.
 Optionally, one can get the statistics of the test:
-  -Individual predictions 
-  -Accuracies
-  -Best classifiers
+  - Individual predictions 
+  - Accuracies
+  - Best classifiers
   
 # todo
   -Make it possible to configure the classifiers via optional arguments
