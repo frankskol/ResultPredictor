@@ -10,7 +10,10 @@ Optionally, one can get the statistics of the test:
   - Individual predictions 
   - Accuracies
   - Best classifiers
-  
+
+# Requirements
+ Your python interpreter needs sklearn and numpy to use this function
+
 # todo
   - Make it possible to configure the classifiers via optional arguments
   - Increase documentation
