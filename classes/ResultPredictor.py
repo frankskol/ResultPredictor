@@ -1,10 +1,15 @@
-"""This function utilizes a values and results list to guess the result for
-a list with result unknown. It will use 10 different classifications 
-and pick the result that comes from the biggest number of classifications. 
-"""
-
-
 def mostProbable(trainingValues, trainingResults, predict, predictAnswer = None, returnInfo = False):
+    """This function utilizes a values and results list to guess the result for
+    a list with result unknown. It will use 10 different classifications 
+    and pick the result that comes from the biggest number of classifications. 
+    @trainingValues is our dataset.
+    @trainingResults is the result of the datasets items.
+    @predict is the value whose result we are looking for.
+    @predictAnswer is the result of the value we are looking for.   
+        Used for accuracy purposes when result is already known
+    @returnInfo opt In bool for getting the function's statistics.
+    """
+
     assert (len(trainingValues) == len(trainingResults)), "Values and results have different sizes"
     if predictAnswer is not None:
         assert (returnInfo), "There should be no return info, but accuracy info is requested"
